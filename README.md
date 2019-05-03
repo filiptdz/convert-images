@@ -1,7 +1,27 @@
 # convert-images
 
 Converts images from an android-like structure, to be used in React Native projects:
-/drawable-\*dpi -> image.png, image@2x.png, image@3x.png
+
+From:
+```
+/path
+  /drawable-mdpi
+    image.png
+  /drawable-xhdpi
+    image.png
+  /drawable-xxhdpi
+    image.png
+```
+To:
+```
+/path
+  image.png
+  image@2x.png
+  image@3x.png
+```
+
+## Instalation:
+`npm i -g convert-images`
 
 ## Usage:
 
