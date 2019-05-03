@@ -28,6 +28,6 @@ To:
 `convert-images -p path -n newName`;
 
 - `-path`: (Alias: `-p`): Path of the folder containing all the images (Default: `'.'`)
-- `-name`: (Alias: `-n`): Name to be used in the new files (Default: Current name)
+- `-name`: (Alias: `-n`): Name to be used in the new files, without the extension (Default: Current name)
 
 ## PS: If anyone wants this package name for something actually useful, feel free to contact me ;)
