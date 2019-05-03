@@ -1,0 +1,11 @@
+{
+  "name": "convert-images",
+  "version": "1.0.3",
+  "main": "index.js",
+  "author": "Filipe Degrazia",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "bin": "index.js"
+}
